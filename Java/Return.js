@@ -117,7 +117,6 @@ function sumNums(num1, num2) {
  console.log(sumNums(3,5))
 
  /* Console.log imprime (5)
-    Console.log imprime 3
     Console.log  imprime (8)
  */
 
@@ -129,16 +128,10 @@ function sumNums(num1, num2) {
  console.log(printSumNums(2,3))
  console.log(printSumNums(3,5))
 
- /* Console.log imprime (5)
-    Console.log imprime (8)
-    Console.log  imprime (13) 
-
-    Diagrama T
-
-    Variable        Valores
-    Sum                 5
-    Sum                 8
-    Result              13
+ /* console.log imprime (2)
+    Console.log imprime (5)
+    Console.log imprime 3
+    Console.log  imprime (8) 
     */
 
 
@@ -149,6 +142,17 @@ function sumNums(num1, num2) {
 }
 var result = sumNums(2,3) + sumNums(3,5);
 console.log('result is', result);
+/* Console.log imprime (5)
+    Console.log imprime (8)
+    Console.log imprime (result is 13)
+
+    Diagrama T
+
+    Variable        Valores
+    num 1              5
+    num 2              8
+    result             13
+ */
 
 
 function sumNums(num1, num2) {
@@ -158,3 +162,10 @@ function sumNums(num1, num2) {
 }
 var result = sumNums(2,3) + sumNums(3,sumNums(2,1)) + sumNums(sumNums(2,1),sumNums(2,3));
 console.log('result is', result);
+/*  console.log 5
+    console.log 3
+    console.log 6
+    console.log 3
+    console.log 8
+    console.log 19
+    */

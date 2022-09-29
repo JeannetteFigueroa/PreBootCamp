@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--esto lo aprendí yo sola en casa, pero igual quise dejar algo para que se vea lo que estuve viendo lo basico de html--> 
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {border: 1px solid black ;}
+    </style>
+</head> 
+
+<body>
+   <table style="width: 500px ;">
+    <thead>
+        <tr>
+            <th>producto</th>
+            <th>precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>bebidas</td>
+            <td>$1000</td>
+        </tr>
+        <tr>
+            <td>Pack de bebidas</td>
+            <td>$10000</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td></td>
+        <td>Total: $11000</td>
+    </tfoot>
+   </table> 
+   
+   <!--ul es lista desordenada-->
+   <ul> 
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+   </ul> 
+   <!--ol es lista ordenada-->
+   <ol> 
+    <li value="10">Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>
+        <ol>
+            <li style="list-style-type: lower-alpha ;">subelemento 1</li>
+            <li style="list-style-type: lower-alpha ;">subelemento 2</li>
+            <li style="list-style-type: lower-alpha ;">subelemento 3</li>
+        </ol>
+    </li>
+</ol> 
+
+    <form action="/formulario" method="post"> 
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" />
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Apellido" />
+        <br>
+        <label for="comentario">Comentario</label> 
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"></textarea>
+        <button type="button">Tipo button</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button> 
+   
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>No pienso colocar eso</h6>
+    <p>Primeras impresiones de la </p>
+        etiqueta de párrafo.</p>
+<hr>
+<h2>Segundo titulo</h2>
+<p>Hola, pienso sinceramente en dejar esto <span style="color: red">para mañana</span></p>
+    o hacer mis apuntes en digital<br> 
+<!--Me duele la mano aah-->
+<a target="_blank" href="https://youtu.be/MJkdaVFHrto">Video con el cual estudié</a>
+<br>
+<img src="img/descargar (3).jpg" width="200" />
+</body>
+</html>
