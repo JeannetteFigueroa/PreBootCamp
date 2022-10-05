@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/formulario" method="post"> 
+        <div>
+            <label> Nombre:* </label>
+            <input type="text" name="Nombre">
+        </div>
+        <div>
+            <br>
+            <div>
+            <label>Apellido:* </label>
+            <input type="text" name="Apellido">
+            </div>
+            <br>
+            <div>
+            <label>Correo:* </label>
+            <input type="text" name="correo">
+            </div>
+            <br>
+            <div>
+            <label>Contraseña:*</label>
+            <input type="password" name="contraseña">
+            </div>
+            <br>
+            <div>
+            <label>Confirmar Contraseña:*</label>
+            <input type="password" name="Confirmar contraseña">
+            </div>
+            <br>
+            <div>
+            <label>Cumpleaños:</label>
+            <input type="date" name="dob">
+            </div>
+            <br>
+            <div>
+            <label>Identidad de género:</label>
+            <br>
+            <input type="radio" id="femenino" name="género">
+            <label>femenino</label>
+            <input type="radio" id="masculino" name="género">
+            <label>masculino</label>
+            <input type="radio" id="indefinido" name="género">
+            <label>indefinido</label>
+            <input type="radio" id="Prefiero no decirlo" name="género">
+            <label>prefiero no decirlo</label>
+            </div>
+            <br>
+            <div>
+            <label for="description"><strong>Una breve descripción sobre mí</strong></label>
+            <br>
+            <textarea cols="50" rows="10" id="description" placeholder="descripcion" name="description"></textarea>
+            </div>
+            <br>
+            <div>
+            <label>Lenguaje de programación favorito:</label>
+            <select name="Lenguaje favorito">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>javascript</option>
+            </select>
+            </div>
+            <br>
+            <div>
+            <input type="checkbox" name="oferta" id="oferta">
+            <label for="oferta">Sí me gustaría recibir actualizaciones periodicas por correo </label>
+            </div>
+            <br>   
+            <div>
+            <input type="submit" value="Crear cuenta">
+            <p>*Indicar un campo obligatorio!</p>
+            </div>
+        </div>
+</body>
+</html>
