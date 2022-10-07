@@ -1,6 +1,22 @@
 h1 {
-    color: cyan;
     background-color: black ;
+    color: white;
     text-align: left;
     font-family: cursive;
+}
+h2 {
+    background-color: #7B68EE;
+    color:white;
+    text-align: center;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 25px;
+}
+h3 {
+    background-color: #6495ED ;
+    font-family: cursive;
+    color: #4B0082;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: normal;
 }
