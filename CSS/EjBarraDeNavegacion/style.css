@@ -1,0 +1,19 @@
+.nav {
+    background-color: rgb(73, 70, 70);
+    height: 50px;
+}
+
+.nav-title {
+    color: white;
+    font-family: monospace;
+    text-align: left;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+ 
