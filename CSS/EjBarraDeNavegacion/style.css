@@ -14,7 +14,6 @@
     margin: 10px;
     padding: 0;
     color: white;
-    
     text-align: left;
     float: left;
 
@@ -22,7 +21,7 @@
 
 .nav-links {
     list-style-type: none;
-    margin-left: 600px;
+    margin-left: 40%;
     padding: 0 ;
     display: flex;
     align-items: center;
