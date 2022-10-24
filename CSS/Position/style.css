@@ -31,6 +31,14 @@
 }
 
 .nacionalidad {
-    font-size: 20px;
-    margin: 25px;
+    font-size: 25px;
+    position: fixed;
+    padding-left: 20px;
+}
+
+.información {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
